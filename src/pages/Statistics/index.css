@@ -1,0 +1,37 @@
+.statistics-section {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 180px;
+    gap: 10px;
+}
+
+@media screen and (min-width: 100px) {
+    /* xs */
+    .statistics-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+  
+@media screen and (min-width: 768px) {
+    /* sm */
+    .statistics-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+  
+@media screen and (min-width: 991px) {
+    /* md */
+    .statistics-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+  
+@media screen and (min-width: 1200px) {
+    /* lg */
+    .statistics-section {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

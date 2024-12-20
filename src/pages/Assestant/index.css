@@ -1,0 +1,13 @@
+.add-employee-btn {
+    border-radius: 6px;
+    height: 40px;
+    min-width: 40px;
+    padding: 0 16px;
+    outline: 0;
+    background-color: #319795;
+    transition: 0.2s;
+}
+
+.add-employee-btn:hover {
+    background-color: #2C7A7B;
+}

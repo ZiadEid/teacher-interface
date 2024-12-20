@@ -1,0 +1,25 @@
+.pending {
+  gap: 12px;
+}
+.pending .pending-animation {
+  height: 400px;
+  background-color: #EDF2F7;
+}
+.pending .pending-content {
+  max-width: 400px;
+  gap: 12px;
+}
+.pending .pending-content h2 {
+  font-size: 20px;
+  line-height: 32px;
+}
+.pending .pending-content a {
+  height: 40px;
+  background-color: #22c35e;
+  border-radius: 6px;
+  gap: 12px;
+  transition: 0.2s;
+}
+.pending .pending-content a:hover {
+  background-color: #179848;
+}

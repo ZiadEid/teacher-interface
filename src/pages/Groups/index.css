@@ -1,0 +1,51 @@
+.add-group-btn {
+    border-radius: 6px;
+    height: 40px;
+    min-width: 40px;
+    padding: 0 16px;
+    outline: 0;
+    background-color: #319795;
+    transition: 0.2s;
+}
+
+.add-group-btn:hover {
+    background-color: #2C7A7B;
+}
+
+.groups-section {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 180px;
+    gap: 10px;
+}
+
+@media screen and (min-width: 100px) {
+    /* xs */
+    .groups-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+  
+@media screen and (min-width: 768px) {
+    /* sm */
+    .groups-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+  
+@media screen and (min-width: 991px) {
+    /* md */
+    .groups-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+  
+@media screen and (min-width: 1200px) {
+    /* lg */
+    .groups-section {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

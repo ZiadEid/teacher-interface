@@ -1,0 +1,155 @@
+.register {
+  background-image: url("../../assets/login.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.register .register-layer {
+  background-color: rgb(49, 130, 206, 0.7);
+}
+.register .register-box {
+  width: 600px;
+}
+.register .register-logo {
+  width: 150px;
+}
+.register .upload-img {
+  padding: 12px;
+  background-color: #bee3f8;
+  border: 1px solid #2c5282;
+}
+.register .upload-img::before,
+.register .upload-img::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #63b3ed;
+  opacity: 0.3;
+  border-radius: 50%;
+  z-index: 4;
+}
+.register .upload-img::before {
+  bottom: -20px;
+  right: -20px;
+}
+.register .upload-img::after {
+  bottom: 15px;
+  right: -40px;
+}
+.register .upload-img .uploaded-image-fram {
+  max-width: 200px;
+  min-height: 100px;
+  background-color: #edf2f7;
+  border: 1px solid #718096;
+}
+.register .upload-img .uploaded-image-fram > img {
+  transition: 0.4s;
+}
+.register .upload-img .uploaded-image-fram:hover > img {
+  transform: scale(1.2);
+}
+.register .upload-img .uploaded-image-fram > svg {
+  top: 5px;
+  right: 5px;
+  background-color: rgb(0, 0, 0, 0.3);
+  transition: 0.2s;
+  cursor: pointer;
+}
+.register .upload-img .uploaded-image-fram > svg:hover {
+  background-color: #C53030 ;
+}
+.register .upload-img p {
+  background-color: #4299e1;
+  font-size: 14px;
+  top: 8px;
+  right: 8px;
+}
+.register .upload-img label,
+.register .upload-img .save-uploaded {
+  background-color: #3182ce !important;
+  color: white !important;
+  height: 40px;
+  min-width: 40px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.register .upload-img label:hover,
+.register .upload-img .save-uploaded:hover  {
+  background-color: #2b6cb0 !important;
+}
+.register .upload-img .uploaded {
+  background-color: #38A169 !important;
+  transition: 0.2s;
+}
+.register .upload-img .uploaded:hover {
+  background-color: #2F855A !important;
+}
+.register input,
+.register select,
+.register button {
+  height: 40px;
+}
+.register input {
+  outline-color: #3182ce;
+  border: 1px solid rgb(43, 108, 176, 0.2);
+  transform: 0.4s;
+}
+.register select {
+  outline: none;
+  border: 1px solid rgb(43, 108, 176, 0.2);
+  transform: 0.4s;
+  appearance: none;
+  cursor: pointer;
+}
+.register input:hover,
+.register select:hover {
+  border-color: rgb(43, 108, 176, 0.3);
+}
+.register select:focus {
+  outline: auto;
+  outline-color: #3182ce;
+}
+.register input[name="user_password"],
+.register input[name="confirm_password"] {
+  width: calc(100% - 50px);
+}
+.register .eyed {
+  color: black;
+  width: 50px;
+  height: 40px;
+  padding: 0px 15.5px;
+  border: 1px solid rgb(43, 108, 176, 0.2);
+  cursor: pointer;
+}
+.register input::placeholder,
+.register a {
+  color: #718096 !important;
+}
+.register a {
+  width: fit-content !important;
+  transition: 0.2s;
+}
+@media (max-width: 767px) {
+  .register a {
+    font-size: 15px;
+  }
+}
+.register a:hover {
+  text-decoration: underline !important;
+}
+.register button {
+  background-color: #3182ce;
+  color: white !important;
+  border: 1px solid #3182ce;
+  transition: 0.2s;
+}
+.register button:last-child {
+  background-color: white;
+  color: #2b6cb0 !important;
+}
+.register button:hover {
+  background-color: #2b6cb0;
+}
+.register button:last-child:hover {
+  background-color: #ebf8ff;
+}

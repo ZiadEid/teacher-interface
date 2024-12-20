@@ -1,0 +1,15 @@
+.not-found h2 {
+  font-size: 20px;
+}
+.not-found a {
+  background-color: #3182ce;
+  height: 40px;
+  min-height: 40px;
+  max-width: 200px;
+  min-width: 40px;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+.not-found a:hover {
+  background-color: #2b6cb0;
+}
